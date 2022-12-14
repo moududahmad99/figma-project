@@ -1,2 +1,1 @@
 # figma-project
-# figma-project
