@@ -1,0 +1,39 @@
+// Common CSS Start
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+:root {
+	--primary-color: #FF451B;
+	--secondary-color: #222222;
+	--tertiary-color: #888888;
+	--quaternary-color: #fec600;
+	--quinary-color: #ffffff;
+	--dark-color: #353535;
+	--primary-font: 'Poppins', sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--regular-font-weight: 400;
+	--medium-font-weight: 500;
+	--semibold-font-weight: 600;
+	--bold-font-weight: 700;
+}
+//  Common CSS End
