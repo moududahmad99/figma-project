@@ -778,4 +778,106 @@ body {
   position: absolute;
   bottom: 120px;
   right: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #FF451B;
+  --secondary-color: #222222;
+  --tertiary-color: #888888;
+  --quaternary-color: #FFD7CE;
+  --quinary-color: #ffffff;
+  --dark-color: #353535;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --semibold-font-weight: 600;
+  --bold-font-weight: 700;
+}
+
+#blog {
+  margin: 120px 0;
+}
+#blog .blog-wrapper {
+  padding: 150px 50px 130px 50px;
+  box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.75);
+}
+#blog .blog-wrapper h3 {
+  font-size: 21px;
+  font-weight: var(--bold-font-weight);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+#blog .blog-wrapper h2 {
+  font-size: 47px;
+  font-weight: var(--bold-font-weight);
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  margin: 40px 0;
+}
+#blog .blog-wrapper .blog-card {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border: 1px solid rgba(128, 128, 128, 0.158);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#blog .blog-wrapper .blog-card img {
+  width: 100%;
+}
+#blog .blog-wrapper .blog-card:hover {
+  box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.75);
+}
+#blog .blog-wrapper .blog-card .blog-text {
+  padding: 30px;
+}
+#blog .blog-wrapper .blog-card .blog-text h3 {
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: var(--bold-font-weight);
+  font-family: var(--primary-font);
+  margin: 25px 0;
+}
+#blog .blog-wrapper .blog-card .blog-text a {
+  font-size: 21px;
+  color: var(--secondary-color);
+  font-weight: var(--bold-font-weight);
+  font-family: var(--primary-font);
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+#blog .blog-wrapper .blog-card .blog-text a:hover {
+  color: var(--primary-color);
 }/*# sourceMappingURL=style.css.map */

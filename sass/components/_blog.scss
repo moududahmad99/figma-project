@@ -1,0 +1,75 @@
+@import '../components/common-css';
+
+#blog {
+    margin: 120px 0;
+
+    .blog-wrapper {
+        padding: 150px 50px 130px 50px;
+        box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.75);
+
+        h3 {
+            font-size: 21px;
+            font-weight: var(--bold-font-weight);
+            color: var(--primary-color);
+            font-family: var(--primary-font);
+        }
+
+        h2 {
+            font-size: 47px;
+            font-weight: var(--bold-font-weight);
+            color: var(--secondary-color);
+            font-family: var(--primary-font);
+            margin: 40px 0;
+        }
+
+        .blog-card {
+            transition: .5s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -ms-transition: .5s;
+            -o-transition: .5s;
+            border: 1px solid rgba(128, 128, 128, 0.158);
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+
+            img {
+                width: 100%;
+            }
+
+            &:hover {
+                box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.75);
+            }
+
+            .blog-text {
+                padding: 30px;
+
+                h3 {
+                    font-size: 16px;
+                    color: var(--primary-color);
+                    font-weight: var(--bold-font-weight);
+                    font-family: var(--primary-font);
+                    margin: 25px 0;
+                }
+
+                a {
+                    font-size: 21px;
+                    color: var(--secondary-color);
+                    font-weight: var(--bold-font-weight);
+                    font-family: var(--primary-font);
+                    transition: .6s;
+                    -webkit-transition: .6s;
+                    -moz-transition: .6s;
+                    -ms-transition: .6s;
+                    -o-transition: .6s;
+
+                    &:hover {
+                        color: var(--primary-color);
+                    }
+                }
+            }
+        }
+    }
+}
