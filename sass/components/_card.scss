@@ -41,11 +41,12 @@
             -ms-transition: .5s;
             -o-transition: .5s;
         }
-
+        
         h3 {
             font-size: 18px;
             color: var(--secondary-color);
             font-weight: var(--bold-font-weight);
+            font-family: var(--primary-font);
             text-align: center;
             transition: .5s;
             -webkit-transition: .5s;
